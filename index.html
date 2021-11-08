@@ -17,15 +17,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/index.js"></script>
 </head>
 
 <body>
+<div id="wrapper">
     <nav class="navbar">
         <div class="navbar-width">
             <a class="navbar-name" href="#Home">
@@ -171,8 +169,8 @@
                 <form class="contact-main-information-form" onsubmit="userEntry()">
                     <input type="text" step="any" id="contact-main-information-form-name" placeholder="Name"> <br>
                     <input type="text" step="any" id="contact-main-information-form-email" placeholder="Email"> <br>
-                    <input type="text" step="any" id="contact-main-information-form-email" placeholder="Message"> <br>
-                    <button type="submit" id="contact-form-submit">Submit</button>
+                    <textarea type="text" step="any" id="contact-main-information-form-message" placeholder="Message"></textarea> <br>
+                    <button type="submit" id="contact-main-information-form-button">SUBMIT</button>
                 </form>
                 <div class="contact-main-information-line"></div>
                 <div class="contact-main-information-details">
@@ -189,25 +187,36 @@
                         <div class="contact-main-information-details-address-value">Bangalore, India</div>
                     </div>
                     <div class="contact-main-information-details-phone">
-                        <a href="https://www.linkedin.com/in/johan-mathew-joseph-8750a8217/" target="_blank"><img src="assets/assets_contact/contact_linkedin.svg" width="30"></a>
-                        <a href="https://www.github.com/johanjoseph02/" target="_blank"><img src="assets/assets_contact/contact_github.svg" width="30"></a>
-                        <a href="https://www.youtube.com/watch?v=xy_NKN75Jhw" target="_blank"><img src="assets/assets_contact/contact_be.svg" width="30"></a>
-                        <a href="https://www.instagram.com/_mathew.02_/" target="_blank"><img src="assets/assets_contact/contact_instagram.svg" width="30"></a>
-                        <a href="https://www.youtube.com/watch?v=-15VC4Yxzys" target="_blank"><img src="assets/assets_contact/contact_facebook.svg" width="30"></a>
+                        <a href="https://www.linkedin.com/in/johan-mathew-joseph-8750a8217/" target="_blank"><img src="assets/assets_contact/contact_linkedin.svg" width="30"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.github.com/johanjoseph02/" target="_blank"><img src="assets/assets_contact/contact_github.svg" width="30"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=xy_NKN75Jhw" target="_blank"><img src="assets/assets_contact/contact_be.svg" width="30"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/_mathew.02_/" target="_blank"><img src="assets/assets_contact/contact_instagram.svg" width="30"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/watch?v=xy_NKN75Jhw" target="_blank"><img src="assets/assets_contact/contact_facebook.svg" width="30"></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contact-left_thin_bubble">
+        <div class="contact-right_thin_bubble">
             <div><img src="assets/assets_home/home_left thin 1.svg" width="80" ></div>
             <div><img src="assets/assets_home/home_left thin 2.svg" width="80"></div>
             <div><img src="assets/assets_home/home_left thin 3.svg" width="80"></div>
             <div><img src="assets/assets_home/home_left thin 4.svg" width="80"></div>
         </div>
     </section>
-    <!-- <footer>
-        dinakar adit putnis uh
-    </footer> -->
+    <footer id="Footer">
+        <a class="footer-name" href="#Home"><b>Johan</b> Mathew Joseph</a>
+        <div class="footer-menu">
+            <a id="footer-home" href="#Home"><div>HOME</div></a>
+            <a id="footer-skills" href="#Skills"><div>SKILLS</div></a>
+            <a id="footer-projects" href="#Projects"><div>PROJECTS</div></a>
+            <a id="footer-contact" href="#Contact"><div>CONTACT</div></a>
+        </div>
+        <div class="footer-credits">
+            <div class="footer-credits-designed">Designed and Developed by Johan Mathew Joseph</div>
+            <div class="footer-credits-vectors">Vectors from Iconify and LottieFiles</div>
+        </div>
+    </footer>
+</div>
 </body>
 
 </html>
