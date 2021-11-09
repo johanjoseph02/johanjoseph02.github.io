@@ -17,7 +17,7 @@ console.log(".");
 console.log("Hello there, fellow inspector");
 console.log(".");
 console.log(".");
-console.log("Welcome to Johan's Portfolio Website")
+console.log("Welcome to my Portfolio Website")
 console.log("Designed and Developed by Johan Mathew Joseph")
 console.log(".");
 console.log(".");
