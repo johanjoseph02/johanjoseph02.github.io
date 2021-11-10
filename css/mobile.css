@@ -158,6 +158,15 @@ body {
         width: 100vw;
     }
 }
+@media screen and (min-width: 706px) and (max-height: 510px) {
+    #Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 600px;
+    }
+}
 #Home > .home-left_thin_bubble{
     display: flex;
     flex-direction: column;
@@ -188,7 +197,16 @@ body {
         align-items: center;
         justify-content: space-around;
         width: 90%;
-        height: 500px;
+        height: 60%;
+    }
+}
+@media screen and (min-width: 706px) and (max-height: 510px) {
+    #Home > .home-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
     }
 }
 #Home > .home-main > .home-main-rectangle {
@@ -206,6 +224,18 @@ body {
         display: flex;
         flex-direction: column;
         height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: #001F4B;
+        border-radius: 100px;
+    }
+}
+@media screen and (min-width: 706px) and (max-height: 510px) {
+    #Home > .home-main > .home-main-rectangle {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
         width: 100%;
         align-items: center;
         justify-content: center;
